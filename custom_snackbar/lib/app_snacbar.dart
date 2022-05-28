@@ -55,14 +55,14 @@ class AppSnackBar extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Text(
-          //   title, 
-          //   style: TextStyle(
-          //     color: Colors.white,
-          //     fontSize: 14.0
-          //   )
-          // ),
-         // Spacer(),
+          Text(
+            title, 
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 14.0
+            )
+          ),
+         Spacer(),
           Text(
             message,
             style: TextStyle(color: Colors.white),
